@@ -15,6 +15,7 @@
             'views/mail_view.xml',
             ],
     'qweb': ['static/src/xml/thread.xml'],
+    'images': ['static/images/main_screenshot.png'],
     'installable': True,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

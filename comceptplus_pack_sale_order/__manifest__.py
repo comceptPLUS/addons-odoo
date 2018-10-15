@@ -2,7 +2,7 @@
 {
     'name': "Pack records (attachments) - sale orders",
     'version': '1.0',
-    'author' : 'comceptPlus',
+    'author' : 'comceptPLUS',
     'website' : 'https://comceptplus.com',
     'category': 'Accounting',
     'summary': "Export selected sale order's attachments into a compressed file",

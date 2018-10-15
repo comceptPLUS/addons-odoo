@@ -114,7 +114,7 @@ class ModelDownloadPack(models.TransientModel):
     @api.multi
     def pack_redirect(self, att_id=''):
         if att_id:
-            base_url = self.env['ir.config_parameter'].get_param('web.base.url')
+            base_url = self.env['ir.config_parameter'].sudo().get_param('web.base.url')
             action = {
                     'type' : 'ir.actions.act_url',
                     'url': base_url + '/web/content/%s' % (att_id),

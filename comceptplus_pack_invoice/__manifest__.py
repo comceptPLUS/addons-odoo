@@ -12,6 +12,7 @@
                 'comceptplus_pack_records',
                 ],
     'data': ['data/action_data.xml'],
+    'images': ['static/images/main_screenshot.png'],
     'installable': True,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -9,7 +9,7 @@
     'category': 'Tools',
     'summary': 'Export record attachments into a compressed file',
     'description': 'This module allows the user to select records and pack their attachments in a zip file.',
-    'depends': ['documents'],
+    'depends': [],
     'data': [
             'security/ir.model.access.csv',
             'wizard/ir_model_download_pack_view.xml'

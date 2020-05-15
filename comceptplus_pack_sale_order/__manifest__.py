@@ -2,6 +2,7 @@
 {
     'name': "Pack records (attachments) - sale orders",
     'version': '1.0',
+    'license': 'AGPL-3',
     'author' : 'comceptPLUS',
     'website' : 'https://comceptplus.com',
     'category': 'Accounting',

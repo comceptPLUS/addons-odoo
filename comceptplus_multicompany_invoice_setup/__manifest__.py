@@ -31,5 +31,6 @@ layouts to load for invoices (with/without payments).
             'views/res_company_view.xml',
             'views/template.xml'
             ],
+    'images': ['static/images/main_screenshot.png'],
     'installable': True,
 }

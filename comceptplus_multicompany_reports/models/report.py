@@ -8,7 +8,7 @@ _logger = logging.getLogger(__name__)
 class IrActionsReport(models.Model):
     _inherit = 'ir.actions.report'
 
-    # Load the right paperformat
+    # Load the right paper format
     def render_qweb_pdf(self, res_ids=None, data=None):
         try:
             company = self.env[self.model].browse(res_ids).company_id

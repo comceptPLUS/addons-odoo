@@ -8,7 +8,7 @@ _logger = logging.getLogger(__name__)
 class Company(models.Model):
     _inherit = 'res.company'
 
-    paperformat_id = fields.Many2one('report.paperformat', 'Paperformat')
+    paperformat_id = fields.Many2one('report.paperformat', 'Paper format')
 
     def update_field(self, aux_company=False, aux_field=False, aux_value=False):
         try:
